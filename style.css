@@ -72,7 +72,7 @@ h2{
 @media(min-width: 600px) {
   
   h1{
-  	margin-top: 16rem;
+  	margin-top: 12rem;
   	font-size: 9rem;
   }
   .countdown-container{
@@ -88,9 +88,9 @@ h2{
  }
  .date button{
  	border: 2px solid green;
-	margin-top: 20px;
-	font-size: 2.5rem;
-	width: 150px;
+	margin-top: 25px;
+	font-size: 3.5rem;
+	width: 200px;
  }
  .big-txt{
  	font-size: 10rem;
@@ -99,6 +99,6 @@ h2{
 	margin-top: 50px;
 	font-size: 3rem;
   }span{ 
-       Font-size: 2rem
+       Font-size: 4rem;
 }
 }
