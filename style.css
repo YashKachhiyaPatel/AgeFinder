@@ -32,9 +32,6 @@ span{
 	border-radius: 10px;
 	cursor: pointer;
 }
-.date input{
-	font-size: 3rem;
-}
 
 .date label{
 	margin-top: 25px;
@@ -53,6 +50,11 @@ h2{
 	margin: 2px 4px;
 	padding: 2px 3px;
 }
+.date input{
+	font-size: 3.5rem;
+	text-align: center;
+}
+
 .countdown-container{
 	display: flex;
 }
@@ -86,15 +88,17 @@ h2{
  	font-size: 4rem;
  }
  #newDate{
- 	margin-top: 20px;
- 	height: 60px;
- 	width: 380px;
+ 	margin-top: 25px;
+ 	height: 70px;
+ 	width: 390px;
+ 	border: 2px solid darkblue;
+ 	border-radius: 8px;
  }
  .date button{
  	border: 2px solid green;
-	margin-top: 30px;
-	font-size: 3.5rem;
-	width: 250px;
+	margin-top: 40px;
+	font-size: 4rem;
+	width: 300px;
  }
  .big-txt{
  	font-size: 10rem;
