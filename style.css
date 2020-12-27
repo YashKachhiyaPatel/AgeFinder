@@ -10,7 +10,8 @@ body{
 	flex-direction: column;
 }
 img{
-	margin-top: -40px;
+        margin-top: -40px;
+        height: 260px;
 }
 h1{
 	margin-top: 8rem;
