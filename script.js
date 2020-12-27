@@ -31,13 +31,24 @@ btnDate.addEventListener("click",function(e){
   let ad;
   am = bm - cm;
   ad = bd - cd;
-  if ( am <= 0 ) 
+  if ( am < 0 ) 
   {
   	   am = am + 12;
   	   if (ad < 0) {
   	   	am -= 1;
   	   	ad = ad + 30;
   	   }
+  }
+  else if(am == 0)
+   {
+       if(ad <= 0)
+       {
+         am = am + 12;
+         if(ad < 0)
+         { am -= 1;
+           ad += 30;
+          }     
+       } 
   }
   else
   {
